@@ -89,3 +89,20 @@ select * from tablename where condition;
 ```bash
 select * from tablename where name='John';
 ```
+
+### update table
+```bash
+update tablename set value_to_set where reference_table;
+```
+```bash
+update tablename set age=18 where id=1;
+```
+
+### delete entry
+```bash
+delete from tablename where condition;
+```
+```bash
+delete from tablename where id=1;
+```
+
