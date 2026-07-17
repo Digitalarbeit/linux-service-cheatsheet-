@@ -9,7 +9,8 @@ This repository serves as a personal knowledge base for managing self-hosted ser
 ## Services Covered
 
 - [Ollama](./ollama.md) 
-- [PostgreSQL](./postgresql.md) 
+- [PostgreSQL](./postgresql.md)
+- [API Routes](./api-routes-ai-model.md) 
 
 More services will be added over time as new tools and stacks are documented. Contributions are welcome — fork the repo, make your changes, and open a pull request.
 
