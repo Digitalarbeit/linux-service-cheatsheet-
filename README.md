@@ -20,5 +20,6 @@ More services will be added over time as new tools and stacks are documented. Co
 ├── README.md
 ├── ollama.md
 ├── postgresql.md
+├── api-routes-ai-model.md
 └── ...
 ```
