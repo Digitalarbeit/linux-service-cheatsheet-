@@ -1,4 +1,4 @@
-content = '''# Linux Service Cheatsheet
+# Linux Service Cheatsheet
 
 A collection of quick-reference Bash commands for managing common Linux services (start, stop, enable, disable, status checks, and more) using `systemctl`.
 
@@ -8,10 +8,10 @@ This repository serves as a personal knowledge base for managing self-hosted ser
 
 ## Services Covered
 
-- [Ollama](./ollama.md) — start, stop, enable/disable autostart, update, and manage AI models
-- [PostgreSQL](./postgresql.md) — start, stop, enable/disable autostart, and access the PostgreSQL shell
+- [Ollama](./ollama.md) 
+- [PostgreSQL](./postgresql.md) 
 
-More services will be added over time as new tools and stacks are documented.
+More services will be added over time as new tools and stacks are documented. Contributions are welcome — fork the repo, make your changes, and open a pull request.
 
 ## Structure
 
