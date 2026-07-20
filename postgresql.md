@@ -31,10 +31,16 @@ systemctl is-enabled postgresql
 systemctl is-active postgresql
 ```
 
+## change password in sql shell
+```bash
+sudo systemctl enable postgresql
+```
+
 ## Access PostgreSQL as the postgres user
 ### Step 1: Switch to the postgres system user
 ```bash
-sudo su postgres
+sudo -u postgres psql
+ALTER USER postgres WITH PASSWORD 'your_new_password';
 ```
 
 ### Step 2: Enter the PostgreSQL interactive shell
