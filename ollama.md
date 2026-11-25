@@ -2,22 +2,22 @@
 
 ## Stop immediately
 ```bash
-sudo systemctl stop ollama
+systemctl stop ollama
 ```
 
 ## Disable autostart on boot (stays off after reboot)
 ```bash
-sudo systemctl disable ollama
+systemctl disable ollama
 ```
 
 ## Start manually when needed
 ```bash
-sudo systemctl start ollama
+systemctl start ollama
 ```
 
 ## Re-enable autostart on boot
 ```bash
-sudo systemctl enable ollama
+systemctl enable ollama
 ```
 
 ## Check status
