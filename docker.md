@@ -15,22 +15,22 @@ docker run hello-world
 
 ## Stop immediately
 ```bash
-sudo systemctl stop docker
+systemctl stop docker
 ```
 
 ## Disable autostart on boot (stays off after reboot)
 ```bash
-sudo systemctl disable docker
+systemctl disable docker
 ```
 
 ## Start manually when needed
 ```bash
-sudo systemctl start docker
+systemctl start docker
 ```
 
 ## Re-enable autostart on boot
 ```bash
-sudo systemctl enable docker
+systemctl enable docker
 ```
 
 ## Check status
